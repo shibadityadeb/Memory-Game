@@ -1,0 +1,71 @@
+#overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s all ease-in-out;
+    backdrop-filter: blur(3px);
+  }
+  
+  #game-over-modal {
+    background-color: white;
+    color: #333;
+    max-height: 250px;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s transform ease-in-out;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  #game-over-modal h2 {
+    font-size: 2rem;
+    color: #ff5f6d;
+    margin-bottom: -10px;
+  }
+  
+  #game-over-modal h3 {
+    font-size: 1.3rem;
+    color: #444;
+  }
+  
+  #game-over-modal p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  #game-over-modal button {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 95, 109, 0.3);
+  }
+  
+  #game-over-modal button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(255, 95, 109, 0.4);
+  }
+  
+  #game-over-modal button:active {
+    transform: translateY(1px);
+  }
+  
+  
