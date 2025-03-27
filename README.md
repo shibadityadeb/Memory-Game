@@ -1,12 +1,27 @@
-# React + Vite
+Color Memory Game 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Color Memory Game that challenges your memory skills! Match colors without repeating any to progress to higher levels.
 
-Currently, two official plugins are available:
+🔗 Live Demo:https://memorygamebyshibadityadeb.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Play Now
 
-## Expanding the ESLint configuration
+🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React.js - Frontend Framework
+
+CSS - Styling
+
+The Color API - Fetching color names dynamically
+
+🎮 How to Play
+
+Click on a color you haven’t clicked before.
+
+If you click a new color, your score increases.
+
+If you click the same color twice, the game is over.
+
+Clear all colors without repeating to reach the next level.
+
+Try to get the highest score possible!
