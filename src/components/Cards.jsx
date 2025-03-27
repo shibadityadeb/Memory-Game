@@ -4,9 +4,8 @@ import { useEffect, useState } from "react"
 import "./Cards.css"
 
 function Card({ hexCode, name, handleClick }) {
-  // Convert color names to more fun/creative names
   const getColorName = (originalName) => {
-    // Map of common colors to more fun names
+    // color mapping
     const colorMap = {
       Red: "Ruby Red",
       Blue: "Ocean Blue",
