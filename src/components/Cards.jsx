@@ -27,14 +27,14 @@ function Card({ hexCode, name, handleClick }) {
       Olive: "Olive Grove",
     }
 
-    // Check if the original name contains any of our mapped colors
+    // checking with name 
     for (const [standard, fancy] of Object.entries(colorMap)) {
       if (originalName.toLowerCase().includes(standard.toLowerCase())) {
         return fancy
       }
     }
 
-    // If no match, return the original with "Vibrant" prefix
+    // if no match
     return `Vibrant ${originalName}`
   }
 
